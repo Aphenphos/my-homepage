@@ -38,6 +38,7 @@ const esl = new Link('esl', 'finance', 'https://www.esl.org', 'esl.png', null);
 const supabase = new Link('supabase', 'tools', 'https://app.supabase.com', 'supabase.png', null);
 const netlify = new Link('netlify', 'tools', 'https://app.netlify.com', 'netlify.png', null);
 const alchemy = new Link('alchemy', 'tools', 'https://alchemeetings.alchemycodelab.io', 'alchemy.png', null);
+const github = new Link('github', 'tools', 'https://github.com/Aphenphos?tab=repositories', null, 'Github');
 
 
 
