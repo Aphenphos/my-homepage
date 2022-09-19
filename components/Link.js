@@ -35,8 +35,9 @@ const playlist = new Link('playlist', 'entertainment', 'https://www.youtube.com/
 const discover = new Link('discover', 'finance', 'https://www.discover.com', 'discover.png', null);
 const capitalone = new Link('capitalone', 'finance', 'https://www.capitalone.com', 'capitalone.png', null);
 const esl = new Link('esl', 'finance', 'https://www.esl.org', 'esl.png', null);
-const supabase = new Link('supabase', 'tools', 'https://app.supabase.com/', 'supabase.png', null);
-const netlify = new Link('netlify', 'tools', 'https://app.netlify.com/', 'netlify.png', null);
+const supabase = new Link('supabase', 'tools', 'https://app.supabase.com', 'supabase.png', null);
+const netlify = new Link('netlify', 'tools', 'https://app.netlify.com', 'netlify.png', null);
+const alchemy = new Link('alchemy', 'tools', 'https://alchemeetings.alchemycodelab.io', 'alchemy.png', null);
 
 
 
