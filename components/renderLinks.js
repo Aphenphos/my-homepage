@@ -7,13 +7,7 @@ export function renderLink(l) {
     if (l.img === null) {
         l.img = 'default.png';
     }
-    if (l.category === 'entertainment') {
-        a.style.backgroundImage = `url(./assets/${l.img});`;
-    } else {
-        a.style.backgroundImage = `url(../assets/${l.img})`;
-    }
-
-
+    a.style.backgroundImage = `url(../assets/${l.img})`;
 
     return a;
 }

@@ -10,7 +10,6 @@ const drawLinks = createAllLinks(main);
 
 async function onPageLoad() {
     links = await Link.entertainment;
-    console.log(links);
     drawLinks({ links });
 }
 
